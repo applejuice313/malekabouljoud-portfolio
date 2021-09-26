@@ -40,23 +40,34 @@ header nav ul li a {
   font-size: 22px;
 }
 
+body {
+  background-image: url("assets/images/salt-lake-city-skyline.jpg");
+
+}
   .banner-img {
     width: 100%;
     margin: 0px 0px 20px 0px;
     vertical-align: top;
     position: relative;
   }
+ 
 
-  
 
   /* Hero Style Start */
+
   .hero {
+    padding: 50px 50px 50px 50px;
+  }
+  
+  .hero-img {
     height: 600px;
-    background-image: url("");
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }             
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+  }              
+  
 
 
 /* Style introductions start- what we do, what you do, etc */

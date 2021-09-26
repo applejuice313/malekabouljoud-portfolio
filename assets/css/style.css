@@ -42,10 +42,12 @@ header nav ul li a {
 
   .banner-img {
     width: 100%;
-    margin: 0px 0px;
+    margin: 0px 0px 20px 0px;
     vertical-align: top;
     position: relative;
   }
+
+  
 
   /* Hero Style Start */
   .hero {
@@ -55,3 +57,31 @@ header nav ul li a {
     background-position: center;
     position: relative;
   }             
+
+
+/* Style introductions start- what we do, what you do, etc */
+.intro  {
+  text-align: left;
+  display: inline-block;
+}
+
+.section-title {
+  font-size: 36px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-bottom: 35px;
+  padding: 20px 20px 20px 20px;
+}
+
+
+.intro p {
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+ #about-me {
+  color: #070707;
+}
+

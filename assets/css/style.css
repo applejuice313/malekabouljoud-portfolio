@@ -29,11 +29,29 @@
     margin: 7px 0;
   }
 
+  /* apply styles to nav */
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+  .banner-img {
+    width: 100%;
+    margin: 0px 0px;
+    vertical-align: top;
+    position: relative;
+  }
+
   /* Hero Style Start */
-.hero {
-    background-image: url("images/headbackground.png");
+  .hero {
     height: 600px;
+    background-image: url("");
     background-size: cover;
     background-position: center;
     position: relative;
-  }            
+  }             
